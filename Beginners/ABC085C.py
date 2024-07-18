@@ -14,9 +14,9 @@ elif n*10 == y:
     print(n, 0, 0)
     exit()
 else:
-    for i in range(n+1):
-        for j in range(n-i+1):
-            k = n-i-j
+    for i in range(n+1):        # ここはCopilotに感謝
+        for j in range(n-i+1):  # Pythonのfor文はn-1までしか回らない
+            k = n-i-j           # forループを減らすのはかなり大事らしい
             if culc(i, j, k) == y:
                 print(i, j, k)
                 exit()

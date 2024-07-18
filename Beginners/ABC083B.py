@@ -6,6 +6,8 @@ def culc(n):
     w = (((n%10000)%1000)%100)%10 # 一の位
     return s+t+u+v+w
 
+# 位ごとに文字に分ける必要はないと言えばない
+
 a = list(map(int,input().split()))
 
 c = 0

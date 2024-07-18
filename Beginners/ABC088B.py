@@ -10,3 +10,5 @@ for i in range(n):
         Bob += a1[i]
 
 print(Alice - Bob)
+
+# 貪欲法…？（＝最大値を取る、なるほど）

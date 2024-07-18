@@ -20,3 +20,5 @@ else:
                 else:
                     break
     print(c)
+
+# 何も考えずに多重forで良いらしい
