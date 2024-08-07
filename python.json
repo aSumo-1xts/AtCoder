@@ -1,0 +1,41 @@
+{
+	"@p": {
+        "prefix": "@p",
+        "body": [
+            "print()",
+        ],
+        "description": "改行"
+    },
+
+    "@n": {
+        "prefix": "@n",
+        "body": [
+            "n = int(input().split())",
+        ],
+        "description": "整数ひとつの読み込み"
+    },
+
+    "@n2": {
+        "prefix": "@n2",
+        "body": [
+            "a = list(map(int, input().split()))",
+        ],
+        "description": "整数をリストに格納"
+    },
+
+    "@c": {
+        "prefix": "@c",
+        "body": [
+            "c = list(input().split())",
+        ],
+        "description": "文字列を1文字ずつリストに格納"
+    },
+
+    "@s": {
+        "prefix": "@s",
+        "body": [
+            "s = input().split()",
+        ],
+        "description": "文字列をリストに格納"
+    },
+}
