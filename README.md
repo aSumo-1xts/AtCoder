@@ -1,5 +1,5 @@
 # AtCoder
 
-## Beginners / Beginners+
+## submits
 
-https://qiita.com/drken/items/fd4e5e3630d0f5859067
+個人的な解答例
