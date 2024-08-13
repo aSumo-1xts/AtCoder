@@ -28,3 +28,5 @@ c = list(input().split())
 
 # 複数行の文字列を一文字ずつに分解して格納
 c = [list(input().split()) for _ in range(n)]
+# 再結合するとき
+C = ''.join(map(str, c))
