@@ -389,7 +389,7 @@ class AVLTree:
 
 
 # 使うとき
-avl = AVLTree()    # 初期化
+avl = AVLTree()     # 初期化
 
 avl[10] = 'a'
 avl[20] = 'b'
@@ -399,5 +399,5 @@ avl[40] = 'd'
 print(avl.lower_bound(15))
 print(avl.find_kth_element(2))
 print(40 in avl)
-del avl[40]   # avl.delete(40)と等価
+del avl[40]         # avl.delete(40)と等価
 print(40 in avl)
