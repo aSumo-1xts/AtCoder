@@ -2,6 +2,9 @@
 sortedcontainers: sorted containers
 ソート状態を保ったまま、要素の追加・削除を高速に実行できるデータ構造たち
 
+これを使えない場合はAVL木が有効っぽい
+https://stnkien.hatenablog.com/entry/avl-tree
+
 各処理時の計算量は原則としてO(logN)で一定
 min, max関数はiterableによって走査され計算量O(N)となるため使用しないこと
 '''
