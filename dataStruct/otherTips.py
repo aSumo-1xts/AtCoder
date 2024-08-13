@@ -21,7 +21,7 @@ print(d[20])    # 100
 # 数字のみならず文字列にも適用できる
 from itertools import accumulate
 num = [1, 3, 5, 7, 9]
-str = s = ['ab', 'bc', 'cd']
+str = ['ab', 'bc', 'cd']
 cumnum = list(accumulate(num))  # [1, 4, 9, 16, 25]
 cumstr = list(accumulate(str))  # ['ab', 'abbc', 'abbccd']
 
