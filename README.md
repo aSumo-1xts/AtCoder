@@ -1,4 +1,4 @@
-# AtCoder
+# Competitive
 
 ## submits
 
