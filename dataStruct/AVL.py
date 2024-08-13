@@ -385,3 +385,19 @@ class AVLTree:
     def __delitem__(self, key): return self.delete(key)
     def __bool__(self): return self.root is not None
     def __len__(self): return self.root.size if self.root is not None else 0
+
+
+
+# 使うとき
+avl = AVLTree()    # 初期化
+
+avl[10] = 'a'
+avl[20] = 'b'
+avl[30] = 'c'
+avl[40] = 'd'
+
+print(avl.lower_bound(15))
+print(avl.find_kth_element(2))
+print(40 in avl)
+del avl[40]   # avl.delete(40)と等価
+print(40 in avl)
